@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaJava, FaReact, FaAws } from 'react-icons/fa';
-import profileImage from '../assets/123.JPG';
 import { 
   SiSpringboot, 
   SiPostgresql, 
@@ -31,7 +30,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/3 mb-10 md:mb-0 flex justify-center">
             <img 
-              src={profileImage}
+              src="/assets/123.JPG"
               alt="Gopi Raju Rajolu" 
               className="w-64 h-64 object-cover rounded-full border-4 border-teal shadow-lg"
               style={{

@@ -4,7 +4,7 @@ import { IoLogoMedium } from "react-icons/io5";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsTelephoneFill } from 'react-icons/bs';
 import { FaSlack } from "react-icons/fa6";
-import profileImage from './assets/GopiRaju.jpg';
+
 
 const Hero = () => {
   return (
@@ -55,7 +55,7 @@ const Hero = () => {
           <div className="relative">
             <div className="w-64 h-64 md:w-80 md:h-80 bg-teal rounded-full opacity-10 absolute -z-10 top-6 left-6"></div>
             <img 
-              src={profileImage}
+              src="/assets/GopiRaju.jpg"
               alt="Gopi Raju Rajolu" 
               className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-lg"
               
