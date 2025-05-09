@@ -4,7 +4,7 @@ import { IoLogoMedium } from "react-icons/io5";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsTelephoneFill } from 'react-icons/bs';
 import { FaSlack } from "react-icons/fa6";
-import profileImage from '/Users/achyuth/Desktop/portfolio/src/assets/GopiRaju.jpg';
+import profileImage from './assets/GopiRaju.jpg';
 
 const Hero = () => {
   return (

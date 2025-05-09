@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="flex items-center">
               <a href="#home" className="flex items-center">
                 <img
-                    src="/assets/logo.png"  // Now using public path
+                    src="/assets/logo.png"
                     alt="Gopi Raju Rajolu Logo"
                     className="h-10 w-auto"
                     onError={(e) => {

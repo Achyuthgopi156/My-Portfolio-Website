@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaJava, FaReact, FaAws } from 'react-icons/fa';
-import profileImage from '/Users/achyuth/Desktop/portfolio/src/assets/123.JPG';
+import profileImage from '../assets/123.JPG';
 import { 
   SiSpringboot, 
   SiPostgresql, 
