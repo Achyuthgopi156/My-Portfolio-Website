@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-blue: #1a365d;
+  --teal: #319795;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-navy-blue {
+  color: var(--navy-blue);
+}
+
+.bg-navy-blue {
+  background-color: var(--navy-blue);
+}
+
+.text-teal {
+  color: var(--teal);
+}
+
+.bg-teal {
+  background-color: var(--teal);
+}
+
+.border-navy-blue {
+  border-color: var(--navy-blue);
+}
+
+.border-teal {
+  border-color: var(--teal);
+}
+
+.hover\:text-teal:hover {
+  color: var(--teal);
+}
+
+.hover\:bg-teal:hover {
+  background-color: var(--teal);
+}
+/* 3D Flip Card Styles */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
