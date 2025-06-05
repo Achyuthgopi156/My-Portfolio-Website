@@ -4,10 +4,10 @@ import { FaAward, FaCertificate } from 'react-icons/fa';
 const Achievements = () => {
   const achievements = [
     {
-      title: "AWS Certified Developer",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      description: "Demonstrated expertise in developing and maintaining AWS-based applications"
+      title: "Neo4j Certified Professional",
+      issuer: "Neo4j Graph Academy",
+      date: "2025",
+      description: "Validating expertise in graph database concepts and Cypher query language"
     },
     {
       title: "Accenture Nordics - Developer Job Simulation",
